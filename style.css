@@ -2500,6 +2500,13 @@ background-size: cover;
 .owl-carousel .owl-item {
   pointer-events: none;  /* Disable any interactions */
 }
+.sowparnika-form-body {
+  display: none; /* Hide by default */
+}
+
+.sowparnika-form-body.active {
+  display: block; /* Show when active */
+}
 
 
 
