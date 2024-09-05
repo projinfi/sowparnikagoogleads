@@ -38,6 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    setTimeout(() => {
+        const targetDropdown = document.getElementById("customDropDown");
+        targetDropdown.style.display = "flex"
+    }, 1000);
+
     // Event listeners to close the modal
     closeButtons.forEach(button => {
         button.addEventListener('click', hideModal);
