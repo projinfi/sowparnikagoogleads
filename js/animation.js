@@ -1,20 +1,23 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const enquireButtons = document.querySelectorAll('.card-enq-btn');
+    // Selecting all buttons that trigger modals
+    const enquireButtons = document.querySelectorAll('.card-enq-btn, .make-enquiry-btn');
     const dropdowns = document.querySelectorAll('.sowparnika-form-body');
     const closeButtons = document.querySelectorAll('.closeicon, .close-mobile-icon');
 
     // Function to show the modal with animation
     function showModal(dropdown) {
-        dropdown.classList.add('active');
+        dropdown.classList.add('active'); // Add your CSS transition class
     }
 
-    // Function to hide the modal
+    // Function to hide all modals
     function hideModal() {
-        dropdowns.forEach(dropdown => dropdown.classList.remove('active'));
-        // Optional: Delay hiding the display until the animation ends
-        setTimeout(() => {
-            dropdowns.forEach(dropdown => dropdown.style.display = 'none');
-        }, 10); // Match this duration to your CSS transition time
+        dropdowns.forEach(dropdown => {
+            dropdown.classList.remove('active');
+            // Optional: Delay setting display to 'none' until after the animation ends
+            setTimeout(() => {
+                dropdown.style.display = 'none';
+            }, 300); // Adjust based on your CSS transition duration
+        });
     }
 
     // Event listener to open the modal
@@ -23,12 +26,13 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetId = this.getAttribute('data-target');
             const targetDropdown = document.getElementById(`${targetId}DropDown`);
 
+            // Hide other modals and display the targeted one
             dropdowns.forEach(dropdown => {
                 if (dropdown === targetDropdown) {
-                    dropdown.style.display = 'flex';
-                    setTimeout(() => showModal(dropdown), 10); // Slight delay to trigger the transition
+                    dropdown.style.display = 'flex'; // Ensure it's visible
+                    setTimeout(() => showModal(dropdown), 10); // Trigger transition after a short delay
                 } else {
-                    dropdown.style.display = 'none';
+                    dropdown.style.display = 'none'; // Hide others
                 }
             });
         });
@@ -39,3 +43,4 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', hideModal);
     });
 });
+

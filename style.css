@@ -2473,7 +2473,9 @@ display: block;
 #westholmesDropDown{
   display: none;
 }
-
+#customDropDown{
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   .slider_item1 {
       background-image: url(/img/mobileweb.jpg); /* Replace with your mobile image */
@@ -2508,6 +2510,14 @@ background-size: cover;
   display: block; /* Show when active */
 }
 
-
-
+.make-enquiry-btn{
+  background-color: #ED1C24;
+  padding: 14px 16px;
+  color: white;
+  border-radius: 24px;
+  cursor: pointer;
+}
+.make-enquiry-btn:hover{
+  color: white;
+}
 

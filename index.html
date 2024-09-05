@@ -115,6 +115,52 @@
             </div>
         </div>
 
+		<div  id="customDropDown" class="sowparnika-form-body" data-form="custom">
+            <div id="istaAnimate"  class="sowparnika-form-content">
+
+				<svg class="closeicon" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+				
+
+				<svg class="close-mobile-icon" width="44" height="44" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="17" cy="17" r="17" fill="white" />
+					<mask id="mask0_197_74" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="24" height="24">
+						<rect x="5" y="5" width="24" height="24" fill="#ffff" />
+					</mask>
+					<g mask="url(#mask0_197_74)">
+						<path
+							d="M11.3998 24.1911L9.80859 22.5998L15.4086 16.9998L9.80859 11.3998L11.3998 9.80859L16.9998 15.4086L22.5998 9.80859L24.1911 11.3998L18.5911 16.9998L24.1911 22.5998L22.5998 24.1911L16.9998 18.5911L11.3998 24.1911Z"
+							fill="#1C1B1F" />
+					</g>
+				</svg>
+
+                <div class="sowparnika-formcontent-left">
+                    <img class="sowparnika-mobile-image" src="./img/mobile-img.jpg" />
+                    <div class="sowparnika-formleft-image">
+                        <img class="sowparnika-image" src="./img/desk-img.jpg" />
+                    </div>
+                </div>
+                <div class="sowparnika-formcontent-right">
+                    <div class="sowparnika-rightformcontent">
+                        <div class="sowparnika-logo-image">
+                            <img class="sowlo" src="./img/ista/sowparniklogo.png" />
+                        </div>
+                        <div class="sowparnika-inputform-sec">
+                        
+                            <div class="sowparnika-des">Please fill in your details</div>
+                            <input type="text" placeholder="Name" class="sowparnikainput" id="name" required />
+                            <input type="tel" id="phone" placeholder="phone" class="sowparnikainput" required
+                                minlength="10" />
+                            <input type="text" placeholder="Email" class="sowparnikainput" id="email" required />
+                            <button id="interestButton-custom" class="iamintrested" disabled>SUBMIT</button>
+                        </div>
+                   
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 		<div  id="yaraDropDown" class="sowparnika-form-body" data-form="yara">
             <div id="istaAnimate"  class="sowparnika-form-content">
 
@@ -152,9 +198,7 @@
                                 minlength="10" />
                             <input type="text" placeholder="Email" class="sowparnikainput" id="email" required />
                             <button id="interestButton-yara" class="iamintrested" disabled>SUBMIT</button>
-                        </div>
-                   
-                        
+                        </div>     
                     </div>
                 </div>
             </div>
@@ -529,14 +573,7 @@
 									</div>                            
 										
 								</div><br>
-									
-							
-								
-							
-
-
-							</div>
-								
+							</div>								
 						</div>
 					</div>
 				</div>
@@ -548,7 +585,7 @@
 				<div class="container">
 					<h2 style="color: white;">Looking For An Apartment Or Villa In Trivandrum ?</h2>
 					<p style="color: white;">Sowparnika projects is here to help you</p>
-					<div   style="background-color: transparent;" class="link-btn card-enq-btn"><a href="#service_area" class="btn main_bg_btn">Make An Enquiry</a></div>
+					<div   style="background-color: transparent;"><a data-target="custom" class="make-enquiry-btn">Make An Enquiry</a></div>
 				</div> <!-- /.container -->
 			</div> <!-- /.opacity -->
 		</div>
@@ -874,6 +911,7 @@ our apartment are both functional and stylish.
 
 				// Initialize validation for each form
 				initializeFormValidation('istaDropDown', 'interestButton-ista');
+				initializeFormValidation('customDropDown', 'interestButton-custom');
 				initializeFormValidation('yaraDropDown', 'interestButton-yara');
 				initializeFormValidation('capitalDropDown', 'interestButton-capital');
 				initializeFormValidation('westholmesDropDown', 'interestButton-west'); 
@@ -892,12 +930,17 @@ our apartment are both functional and stylish.
 		<script>
 			document.addEventListener("DOMContentLoaded", function () {
 				const istaButton = document.getElementById('interestButton-ista');
+				const customButton = document.getElementById('interestButton-custom');
 				const yaraButton = document.getElementById('interestButton-yara');
 				const capitalButton = document.getElementById('interestButton-capital');
 				const westHomesButton = document.getElementById('interestButton-west');
 
 				istaButton.addEventListener('click', function () {
 					sendFormData('ista');
+				});
+
+				customButton.addEventListener('click', function () {
+					sendFormData('custom');
 				});
 
 				yaraButton.addEventListener('click', function () {

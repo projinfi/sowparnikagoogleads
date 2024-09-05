@@ -2473,7 +2473,9 @@ display: block;
 #westholmesDropDown{
   display: none;
 }
-
+#customDropDown{
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   .slider_item1 {
       background-image: url(/img/mobileweb.jpg); /* Replace with your mobile image */
