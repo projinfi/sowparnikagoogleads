@@ -988,21 +988,14 @@ our apartment are both functional and stylish.
 
     // Optionally, close the modal here if it's open
     document.getElementById(formId).style.display = 'none';
-}
+				}
 
 			});
-			function showPopup() {
-        const popup = document.getElementById('submitPopup');
-        popup.style.display = 'block';
+		function showPopup() {
+			window.location.href = "confirmSubmit.html";
 
-        // Hide the popup after 3 seconds
-        setTimeout(function () {
-            popup.style.display = 'none';
-        }, 3000);
-
-		
-    }
-		</script>
+		}
+	</script>
 		
 		</body>
 		
