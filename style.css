@@ -775,7 +775,11 @@ ul, ol{
  background-size: cover;
  width: 100%;
 height: auto;
-  background-position: center;
+}
+
+.sowparnika-img-banner{
+  margin-top: 90px;
+  
 }
 
 .slider_item2 {
@@ -2572,3 +2576,19 @@ background-size: cover;
   color: #000;
   
 }
+.mobile-img{
+  display: none;
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width:600px) and (min-width:0px) {
+.mobile-img{
+  display: block;
+}
+.desktop-img{
+  display: none;
+}
+  
+}
+
+
