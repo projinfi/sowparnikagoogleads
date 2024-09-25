@@ -2561,6 +2561,14 @@ background-size: cover;
   display: flex;
   justify-content: center;
 }
+.mobile-img{
+  width: 100%;
+  height: auto;
+}
+.desktop-img{
+ width: 100%;
+ height: auto;
+}
 @media screen and (max-width:700px) and (min-width:0px) {
   .confirm-heading{
     font-size: 32px;
