@@ -53,7 +53,8 @@ document.addEventListener('DOMContentLoaded', function() {
             let scrollPercentage = (scrollPosition/pageHeight)*100;
     
             if(scrollPercentage>=20){
-                targetDropdown.style.display = "flex"
+                // hide modal temporarly
+                targetDropdown.style.display = "none"
                 hasModaleShown = true;
             }
         }
