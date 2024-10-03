@@ -356,8 +356,7 @@
 
 
 					<div class="col-md-4 col-sm-6 col-xs-12 feature-colmun">
-						<form class="form-primary" id="contact_form1" action="enquiry.php" method="post">
-                            <input type="hidden" name="project" value="Ista">
+						
 						<div class="single-item">
 							<div class="img-box"><figure><img alt="" src="img/service/Ista.png"></figure></div>
 							<div class="card-in-location-box">
@@ -399,12 +398,11 @@
 								</div>
 							</div>
 						</div>
-						</form>
+						
 					</div>
 
 					<div class="col-md-4 col-sm-6 col-xs-12 feature-colmun">
-						 <form class="form-primary" id="contact_form1" action="enquiry.php" method="post">
-                            <input type="hidden" name="project" value="Yara">
+						
 						<div class="single-item">
 							<div class="img-box"><figure><img alt="" src="img/service/Yara.png"></figure></div>
 							<div class="card-in-location-box">
@@ -447,12 +445,11 @@
 								</div>
 							</div>
 						</div>
-						 </form>
+						 
 					</div>
 
 					<div class="col-md-4 col-sm-6 col-xs-12 feature-colmun">
-						 <form class="form-primary" id="contact_form1" action="enquiry.php" method="post">
-                            <input type="hidden" name="project" value="Capital Country">
+						
 						<div class="single-item">
 							<div class="img-box"><figure><img alt="" src="img/service/Capital County.png"></figure></div>
 							<div class="card-in-location-box">
@@ -495,11 +492,10 @@
 								</div>
 							</div>
 						</div>
-						 </form>
+						 
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-12 feature-colmun">
-						 <form class="form-primary" id="contact_form1" action="enquiry.php" method="post">
-                            <input type="hidden" name="project" value="West Holmes"> 
+						
 						<div class="single-item">
 							<div class="img-box"><figure><img alt="" src="img/service/West Holmes.png"></figure></div>
 							<div class="card-in-location-box">
@@ -542,7 +538,7 @@
 								</div>
 							</div>
 						</div>
-						 </form>
+						
 					</div>
 				
 			
