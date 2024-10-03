@@ -60,7 +60,7 @@
 						<!-- Logo Area -->
 						<div class="logo_area">
 							 <a class="white_logo" href="index.html"><img class="desk-nav-logo" src="img/logo2.svg" alt="Logo" /></a>
-							 <a class="main_logo" href="index.html"><img src="img/logo2.svg" alt="Logo" /></a>
+							 <a class="main_logo" href="index.html"><img class="mob-nav-logo" src="img/logo2.svg" alt="Logo" /></a>
 						</div>
 						
 						 <div class="navbar-header">
@@ -336,10 +336,21 @@
 		
 	<!-- Start Slider Area -->
 		
-		<div class="sowparnika-img-banner">
-			<img class="desktop-img" src="img/slider/sl-1.png"/>
-			<img class="mobile-img" src="img/mobileweb.png"/>
+	<div class="sowparnika-img-banner slider desktop-slider">
+		<div>
+			<img class="desktop-img" src="img/slider/sl-1.png" />
+			<img class="mobile-img" src="img/mobileweb.png" />
 		</div>
+		<div>
+			<img class="desktop-img" src="img/slider/sl-2.png" />
+			<img class="mobile-img" src="img/mobileweb2.png" />
+		</div>
+	</div>
+
+
+	
+	
+		
 		<!-- End Slider Area -->
 		
 
@@ -876,7 +887,13 @@ our apartment are both functional and stylish.
 		<script src="/js/email.js"></script>
 		<script src="/js/animation.js"></script>
 		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
 		<script type="text/javascript">
+			
 			(function () {
 				emailjs.init("xM_O9Wn0FcMmDQWeU");
 			})();
@@ -1004,6 +1021,33 @@ our apartment are both functional and stylish.
 
 		}
 	</script>
+	<script>
+		$(document).ready(function(){
+			$('.slider').slick({
+				infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: true,
+				dots: true,
+				autoplay : true,
+				autoplaySpeed: 3000,  
+				pauseOnHover: false,   
+				responsive: [
+					{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							arrows: false,
+							dots: true,
+							
+						}
+					}
+				]
+			});
+		});
+	</script>
+	
 		
 		</body>
 		<!-- Google Tag Manager (noscript) -->

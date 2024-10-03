@@ -605,7 +605,8 @@ ul, ol{
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out;
-	padding: 16px 0;
+	padding: 8px 0;
+  background-color: white;
 
 }
 .logo_area {
@@ -778,7 +779,7 @@ height: auto;
 }
 
 .sowparnika-img-banner{
-  margin-top: 90px;
+  margin-top: 72px;
   
 }
 
@@ -902,7 +903,9 @@ height: auto;
   transition: all 0.3s ease 0s;
   z-index: 1;
 }
-
+.slick-slide .mobile-img{
+  display: none;
+}
 .single_about:hover{
 
 }
@@ -2139,6 +2142,7 @@ border-top: 1px solid rgb(200, 199, 199);
   }
 
 }
+
 .slider_area{
   margin-top: 95px;
 }
@@ -2590,15 +2594,20 @@ background-size: cover;
   height: auto;
 }
 @media screen and (max-width:600px) and (min-width:0px) {
-.mobile-img{
-  display: block;
-}
-.desktop-img{
-  display: none;
-}
-  .desk-nav-logo{
+
+  
+  .slick-slide .desktop-img {
+    display: none;
+  }
+  .slick-slide .mobile-img{
+    display: block;
+  } 
+
+  .desk-nav-logo {
     margin-top: -10px;
   }
+
+  .mob-nav-logo {
+    margin-top: -5px;
+  }
 }
-
-
