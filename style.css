@@ -2596,7 +2596,9 @@ background-size: cover;
 .desktop-img{
   display: none;
 }
-  
+  .desk-nav-logo{
+    margin-top: -10px;
+  }
 }
 
 
