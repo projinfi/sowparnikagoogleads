@@ -12,7 +12,7 @@
         error_reporting(E_ALL);
 
         //$to = "itssanathsb@gmail.com"; // Updated recipient email
-$to = "support@extrememedia.in";
+$to = "hello@infideck.com,support@extrememedia.in";
         $email_subject = $subject;
         $txt = "You have a new message<br>=============================<br>" . 
                "Name: " . $name . "<br>Phone: " . $phone . "<br>Email: " . $email . "<br>Project: " . $project . "<br>Message:<br>" . $message ;
