@@ -884,12 +884,12 @@ our apartment are both functional and stylish.
 		<script src="js/ajax-mail.js"></script>
 		<script src="/js/email.js"></script>
 		<script src="/js/animation.js"></script>
-		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<!--<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 		<script type="text/javascript">
 			(function () {
 				emailjs.init("xM_O9Wn0FcMmDQWeU");
 			})();
-		</script>
+		</script>-->
 		
 		<script>
 			document.addEventListener('DOMContentLoaded', function () {
@@ -936,13 +936,13 @@ our apartment are both functional and stylish.
 			});
 </script>
 		
-		<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<!--<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 		
 		<script type="text/javascript">
 			(function () {
 				emailjs.init("xM_O9Wn0FcMmDQWeU"); // Replace 'YOUR_USER_ID' with your EmailJS user ID.
 			})();
-		</script>
+		</script>-->
 		
 		<script>
 			document.addEventListener("DOMContentLoaded", function () {
