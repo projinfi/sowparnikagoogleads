@@ -107,7 +107,7 @@
                             <input type="tel" name="phone" id="phone" placeholder="phone" class="sowparnikainput" required
                                 minlength="10" />
                             <input type="text" name="email" placeholder="Email" class="sowparnikainput" id="email" required />
-                            <button id="interestButton-ista" class="iamintrested" disabled>SUBMIT</button>
+                            <button type="submit" id="interestButton-ista" class="iamintrested" disabled>SUBMIT</button>
 				 </form>
                         </div>
                    
@@ -154,7 +154,7 @@
                             <input type="tel" id="phone" placeholder="phone" class="sowparnikainput" required
                                 minlength="10" />
                             <input type="text" placeholder="Email" class="sowparnikainput" id="email" required />
-                            <button id="interestButton-custom" class="iamintrested" disabled>SUBMIT</button>
+                            <button type="submit" id="interestButton-custom" class="iamintrested" disabled>SUBMIT</button>
 				 </form>
                         </div>
                    
