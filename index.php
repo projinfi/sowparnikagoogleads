@@ -161,7 +161,14 @@
                             <input type="tel" id="phone" placeholder="phone" class="sowparnikainput" required
                                 minlength="10" />
                             <input type="text" placeholder="Email" class="sowparnikainput" id="email" required />
-                            <button type="submit" id="interestButton-custom" class="iamintrested" disabled>SUBMIT</button>
+                             <select class="form-control sowparnikainput" id="projectSelect" name="project">
+                                        <option value="" disabled selected>Please choose a project</option>
+                                        <option value="Yara">Yara</option>
+                                        <option value="Ista">Ista</option>
+                                        <option value="Capital Country">Capital County</option>
+                                        <option value="West Holmes">West Holmes</option>
+                                    </select>
+					 <button type="submit" id="interestButton-custom" class="iamintrested" disabled>SUBMIT</button>
 				 </form>
                         </div>
                    
