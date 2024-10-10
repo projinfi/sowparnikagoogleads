@@ -4,8 +4,8 @@
         $name = htmlspecialchars($_POST['name']);
         $email = htmlspecialchars($_POST['email']);
         $phone = htmlspecialchars($_POST['phone']);
-        $subject = htmlspecialchars($_POST['subject']);
-        $message = htmlspecialchars($_POST['message']);
+        $subject = '';
+        $message = '';
          $project = htmlspecialchars($_POST['project']);
 
         ini_set('display_errors', 1);
