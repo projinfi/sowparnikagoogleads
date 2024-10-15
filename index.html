@@ -987,6 +987,9 @@ our apartment are both functional and stylish.
     const emailInput = form.querySelector('#email');
     const interestButton = form.querySelector('.iamintrested');
 
+	interestButton.disabled = "true";
+	interestButton.style.backgroundColor = 'rgb(184, 232, 203)';
+
     const templateParams = {
         name: nameInput.value,
         phone: phoneInput.value,
