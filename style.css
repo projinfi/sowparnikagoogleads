@@ -605,7 +605,8 @@ ul, ol{
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out;
-	padding: 16px 0;
+	padding: 8px 0;
+  background-color: white;
 
 }
 .logo_area {
@@ -775,7 +776,11 @@ ul, ol{
  background-size: cover;
  width: 100%;
 height: auto;
-  background-position: center;
+}
+
+.sowparnika-img-banner{
+  margin-top: 72px;
+  
 }
 
 .slider_item2 {
@@ -898,7 +903,9 @@ height: auto;
   transition: all 0.3s ease 0s;
   z-index: 1;
 }
-
+.slick-slide .mobile-img{
+  display: none;
+}
 .single_about:hover{
 
 }
@@ -2135,6 +2142,7 @@ border-top: 1px solid rgb(200, 199, 199);
   }
 
 }
+
 .slider_area{
   margin-top: 95px;
 }
@@ -2557,6 +2565,14 @@ background-size: cover;
   display: flex;
   justify-content: center;
 }
+.mobile-img{
+  width: 100%;
+  height: auto;
+}
+.desktop-img{
+ width: 100%;
+ height: auto;
+}
 @media screen and (max-width:700px) and (min-width:0px) {
   .confirm-heading{
     font-size: 32px;
@@ -2571,4 +2587,27 @@ background-size: cover;
   font-weight: 600;
   color: #000;
   
+}
+.mobile-img{
+  display: none;
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width:600px) and (min-width:0px) {
+
+  
+  .slick-slide .desktop-img {
+    display: none;
+  }
+  .slick-slide .mobile-img{
+    display: block;
+  } 
+
+  .desk-nav-logo {
+    margin-top: -10px;
+  }
+
+  .mob-nav-logo {
+    margin-top: -5px;
+  }
 }

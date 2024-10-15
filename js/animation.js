@@ -38,10 +38,28 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    setTimeout(() => {
-        const targetDropdown = document.getElementById("customDropDown");
-        targetDropdown.style.display = "flex"
-    }, 1000);
+    // setTimeout(() => {
+    //     const targetDropdown = document.getElementById("customDropDown");
+    //     targetDropdown.style.display = "flex"
+    // }, 50000);
+
+    const targetDropdown = document.getElementById("customDropDown");
+    let hasModaleShown = false;
+
+    window.onscroll = function(){
+        if(!hasModaleShown){
+            const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+            const pageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrollPercentage = (scrollPosition/pageHeight)*100;
+    
+            if(scrollPercentage>=20){
+                // hide modal temporarly
+                targetDropdown.style.display = "none"
+                hasModaleShown = true;
+            }
+        }
+        
+    }
 
     // Event listeners to close the modal
     closeButtons.forEach(button => {

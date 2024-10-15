@@ -21,14 +21,14 @@ END PRELOADER JS*/
 		}
 	});	
 
-	$(window).on('scroll',function() {
+	// $(window).on('scroll',function() {
 		
-		  if ($(this).scrollTop() > 10) {
-			$('#header').addClass('menu-shrink');
-		  } else {
-			$('#header').removeClass('menu-shrink');
-		  }
-		});
+	// 	  if ($(this).scrollTop() > 10) {
+	// 		$('#header').addClass('menu-shrink');
+	// 	  } else {
+	// 		$('#header').removeClass('menu-shrink');
+	// 	  }
+	// 	});
 		
 		$('a').on('click', function(e){
 			var anchor = $(this);

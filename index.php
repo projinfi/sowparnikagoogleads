@@ -1,6 +1,19 @@
 <!doctype html>
 <html class="no-js" lang="">
 
+
+
+<!-- Google Tag Manager -->
+<!-- <script>(function (w, d, s, l, i) {
+	w[l] = w[l] || []; w[l].push({
+		'gtm.start':
+			new Date().getTime(), event: 'gtm.js'
+	}); var f = d.getElementsByTagName(s)[0],
+		j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+			'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-5H9JJ3GR');</script> -->
+<!-- End Google Tag Manager -->
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="">
@@ -26,6 +39,17 @@
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->	
 </head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11473543287">
+</script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-11473543287');
+</script>
+
 	<body>
 
 		<!-- Star Header Area -->		
@@ -35,8 +59,8 @@
 					<div class="col-md-4 col-sm-3">
 						<!-- Logo Area -->
 						<div class="logo_area">
-							 <a class="white_logo" href="index.html"><img src="img/logo2.svg" alt="Logo" /></a>
-							 <a class="main_logo" href="index.html"><img src="img/logo2.svg" alt="Logo" /></a>
+							 <a class="white_logo" href="index.html"><img class="desk-nav-logo" src="img/logo2.svg" alt="Logo" /></a>
+							 <a class="main_logo" href="index.html"><img class="mob-nav-logo" src="img/logo2.svg" alt="Logo" /></a>
 						</div>
 						
 						 <div class="navbar-header">
@@ -335,26 +359,22 @@
 		
 		
 	<!-- Start Slider Area -->
-		<section style="margin-top: 95px;" id="slider_area">
-			<div class="slider_active owl-carousel">
-				<div class="slider_item1 single_slide">
-					<div class="container">	
-						<div class="single-slide-item-table">
-							<div class="single-slide-item-tablecell">
-								
-							</div>
-						</div>						
-					</div>
-				</div>
-				<div class="slider_item2 single_slide">
-					<div class="container">		
-						<div class="single-slide-item-table">
-							
-						</div>	
-					</div>
-				</div>				
-			</div>
-		</section>
+		
+	<div class="sowparnika-img-banner slider desktop-slider">
+		<div>
+			<img class="desktop-img" src="img/slider/sl-1.png" />
+			<img class="mobile-img" src="img/mobileweb.png" />
+		</div>
+		<div>
+			<img class="desktop-img" src="img/slider/sl-2.png" />
+			<img class="mobile-img" src="img/mobileweb2.png" />
+		</div>
+	</div>
+
+
+	
+	
+		
 		<!-- End Slider Area -->
 		
 
@@ -782,7 +802,7 @@ our apartment are both functional and stylish.
 							<div class="single_contact_info">
 								<i class="ti-mobile"></i>
 								<p>
-									+91 93426 16162<br />
+									+91 9746 9920 12<br />
 									
 								</p>
 							</div>	
@@ -898,8 +918,14 @@ our apartment are both functional and stylish.
 		<script src="js/ajax-mail.js"></script>
 		<script src="/js/email.js"></script>
 		<script src="/js/animation.js"></script>
-		<!--<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
 		<script type="text/javascript">
+			
 			(function () {
 				emailjs.init("xM_O9Wn0FcMmDQWeU");
 			})();
@@ -993,6 +1019,9 @@ our apartment are both functional and stylish.
     const emailInput = form.querySelector('#email');
     const interestButton = form.querySelector('.iamintrested');
 
+	interestButton.disabled = "true";
+	interestButton.style.backgroundColor = 'rgb(184, 232, 203)';
+
     const templateParams = {
         name: nameInput.value,
         phone: phoneInput.value,
@@ -1026,8 +1055,40 @@ our apartment are both functional and stylish.
 			window.location.href = "confirmSubmit.html";
 
 		}
-	</script>-->
+	</script>
+	<script>
+		$(document).ready(function(){
+			$('.slider').slick({
+				infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: true,
+				dots: true,
+				autoplay : true,
+				autoplaySpeed: 2000,  
+				
+				pauseOnHover: false,   
+				responsive: [
+					{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							arrows: false,
+							dots: true,
+							
+						}
+					}
+				]
+			});
+		});
+	</script>
+	
 		
 		</body>
+		<!-- Google Tag Manager (noscript) -->
+		<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9JJ3GR" height="0" width="0"
+				style="display:none;visibility:hidden"></iframe></noscript> -->
+		<!-- End Google Tag Manager (noscript) -->
 		
 		</html>
