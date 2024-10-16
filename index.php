@@ -80,7 +80,7 @@
 							
 							<div id="navbar" class="navbar-collapse collapse">
 								<ul id="nav" class="nav navbar-nav">
-									<li><a href="index.html">Home</a></li>
+									<li><a href="index.html">Home1</a></li>
 									<li><a href="#about">About</a></li>							
 									<li><a href="#service_area">Projects</a></li>									
 									<li><a href="#contact_area">Contact</a></li>
