@@ -24,7 +24,7 @@ $to = "hello@infideck.com,support@extrememedia.in";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
-$headers .= 'From: <info@emserver.in>' . "\r\n";
+$headers .= 'From: <hello@infideck.com>' . "\r\n";
 $headers .= 'Bcc: digitalmarketing@extrememedia.in' . "\r\n";
 
         if (mail($to, $email_subject, $txt, $headers)) {
