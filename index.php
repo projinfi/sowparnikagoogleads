@@ -88,7 +88,7 @@
 							
 							<div id="navbar" class="navbar-collapse collapse">
 								<ul id="nav" class="nav navbar-nav">
-									<li><a href="index.html">Home</a></li>
+									<li><a href="index.html">Home1</a></li>
 									<li><a href="#about">About</a></li>							
 									<li><a href="#service_area">Projects</a></li>									
 									<li><a href="#contact_area">Contact</a></li>
@@ -134,11 +134,14 @@
                         <div class="sowparnika-inputform-sec">
                         
                             <div class="sowparnika-des">Please fill in your details</div>
+								 <form class="form-primary" id="contact_form1" action="enquiry.php" method="post">
+
                             <input type="text" placeholder="Name" class="sowparnikainput" id="name" required />
                             <input type="tel" id="phone" placeholder="phone" class="sowparnikainput" required
                                 minlength="10" />
                             <input type="text" placeholder="Email" class="sowparnikainput" id="email" required />
                             <button id="interestButton-ista" class="iamintrested" disabled>SUBMIT</button>
+								 </form>
                         </div>
                    
                         
@@ -179,11 +182,14 @@
                         <div class="sowparnika-inputform-sec">
                         
                             <div class="sowparnika-des">Please fill in your details</div>
+								 <form class="form-primary" id="contact_form1" action="enquiry.php" method="post">
+
                             <input type="text" placeholder="Name" class="sowparnikainput" id="name" required />
                             <input type="tel" id="phone" placeholder="phone" class="sowparnikainput" required
                                 minlength="10" />
                             <input type="text" placeholder="Email" class="sowparnikainput" id="email" required />
                             <button id="interestButton-custom" class="iamintrested" disabled>SUBMIT</button>
+								 </form>
                         </div>
                    
                         
@@ -225,11 +231,14 @@
                         <div class="sowparnika-inputform-sec">
                         
                             <div class="sowparnika-des">Please fill in your details</div>
+								 <form class="form-primary" id="contact_form1" action="enquiry.php" method="post">
+
                             <input type="text" placeholder="Name" class="sowparnikainput" id="name" required />
                             <input type="tel" id="phone" placeholder="phone" class="sowparnikainput" required
                                 minlength="10" />
                             <input type="text" placeholder="Email" class="sowparnikainput" id="email" required />
                             <button id="interestButton-yara" class="iamintrested" disabled>SUBMIT</button>
+								 </form>
                         </div>     
                     </div>
                 </div>
@@ -268,11 +277,14 @@
                         <div class="sowparnika-inputform-sec">
                         
                             <div class="sowparnika-des">Please fill in your details</div>
+								 <form class="form-primary" id="contact_form1" action="enquiry.php" method="post">
+
                             <input type="text" placeholder="Name" class="sowparnikainput" id="name" required />
                             <input type="tel" id="phone" placeholder="phone" class="sowparnikainput" required
                                 minlength="10" />
                             <input type="text" placeholder="Email" class="sowparnikainput" id="email" required />
                             <button id="interestButton-capital" class="iamintrested" disabled>SUBMIT</button>
+								 </form>
                         </div>
                    
                         
@@ -313,11 +325,14 @@
                         <div class="sowparnika-inputform-sec">
                         
                             <div class="sowparnika-des">Please fill in your details west homes</div>
+								 <form class="form-primary" id="contact_form1" action="enquiry.php" method="post">
+
                             <input type="text" placeholder="Name" class="sowparnikainput" id="name" required />
                             <input type="tel" id="phone" placeholder="phone" class="sowparnikainput" required
                                 minlength="10" />
                             <input type="text" placeholder="Email" class="sowparnikainput" id="email" required />
                             <button id="interestButton-west" class="iamintrested" disabled>SUBMIT</button>
+								 </form>
                         </div>
                    
                         
@@ -900,7 +915,7 @@ our apartment are both functional and stylish.
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 
-		<script type="text/javascript">
+		<!--<script type="text/javascript">
 			
 			(function () {
 				emailjs.init("xM_O9Wn0FcMmDQWeU");
@@ -958,7 +973,7 @@ our apartment are both functional and stylish.
 			(function () {
 				emailjs.init("xM_O9Wn0FcMmDQWeU"); // Replace 'YOUR_USER_ID' with your EmailJS user ID.
 			})();
-		</script>
+		</script>-->
 		
 		<script>
 			document.addEventListener("DOMContentLoaded", function () {
