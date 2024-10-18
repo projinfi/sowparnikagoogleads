@@ -256,7 +256,7 @@ h1{
             <h1>Thank you !</h1>
             <p><?php echo $msg;?> </p>
            
-<a href="https://emserver.in/sowparnika"></a><button class="go-home">
+<a href="https://sowparnikatrivandrum.com/"></a><button class="go-home">
             go home
             </button></a>
           </div>
