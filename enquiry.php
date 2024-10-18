@@ -4,7 +4,7 @@
         $name = htmlspecialchars($_POST['name']);
         $email = htmlspecialchars($_POST['email']);
         $phone = htmlspecialchars($_POST['phone']);
-        $subject = '';
+        $subject = 'Sowparnika Enquiry';
         $message = '';
          $project = htmlspecialchars($_POST['project']);
 
