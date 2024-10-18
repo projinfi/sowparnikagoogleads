@@ -980,7 +980,7 @@ our apartment are both functional and stylish.
 			})();
 		</script>-->
 		
-		<script>
+		<!--<script>
 			document.addEventListener("DOMContentLoaded", function () {
 				const istaButton = document.getElementById('interestButton-ista');
 				const customButton = document.getElementById('interestButton-custom');
@@ -1051,7 +1051,7 @@ our apartment are both functional and stylish.
 			window.location.href = "confirmSubmit.html";
 
 		}
-	</script>
+	</script>-->
 	<script>
 		$(document).ready(function(){
 			$('.slider').slick({
