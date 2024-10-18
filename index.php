@@ -1079,7 +1079,18 @@ our apartment are both functional and stylish.
 			});
 		});
 	</script>
-	
+	<style>
+		.iamintrested
+			 background-color: rgb(184, 232, 203);
+ 
+  width: 100% !important;			
+		
+		}
+	.iamintrested:enabled {
+  background-color: rgb(184, 232, 203);
+ 
+  width: 100% !important;
+}</style>
 		
 		</body>
 		<!-- Google Tag Manager (noscript) -->
