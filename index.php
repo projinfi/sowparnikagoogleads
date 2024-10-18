@@ -141,7 +141,7 @@
                                 minlength="10" />
                             <input type="text" placeholder="Email" name="email" class="sowparnikainput" id="email" required />
                             <input type="hidden" name="project" value="Ista">
-                            <button type="submit" id="interestButton-ista" class="iamintrested" disabled>SUBMIT</button>
+                            <button type="submit" id="interestButton-ista" class="iamintrested" >SUBMIT</button>
 								 </form>
                         </div>
                    
@@ -190,7 +190,7 @@
                                 minlength="10" />
                             <input type="text" placeholder="Email" name="email" class="sowparnikainput" id="email" required />
                             <input type="hidden" name="project" value="">
-                            <button type="submit" id="interestButton-custom" class="iamintrested" disabled>SUBMIT</button>
+                            <button type="submit" id="interestButton-custom" class="iamintrested" >SUBMIT</button>
 								 </form>
                         </div>
                    
@@ -240,7 +240,7 @@
                                 minlength="10" />
                             <input type="text" placeholder="Email" name="email" class="sowparnikainput" id="email" required />
                             <input type="hidden" name="project" value="Yara">
-                            <button type="submit" id="interestButton-yara" class="iamintrested" disabled>SUBMIT</button>
+                            <button type="submit" id="interestButton-yara" class="iamintrested" >SUBMIT</button>
 								 </form>
                         </div>     
                     </div>
@@ -287,7 +287,7 @@
                                 minlength="10" />
                             <input type="text" placeholder="Email" name="email" class="sowparnikainput" id="email" required />
                             <input type="hidden" name="project" value="Capital Country">
-                            <button type="submit" id="interestButton-capital" class="iamintrested" disabled>SUBMIT</button>
+                            <button type="submit" id="interestButton-capital" class="iamintrested" >SUBMIT</button>
 								 </form>
                         </div>
                    
@@ -336,7 +336,7 @@
                                 minlength="10" />
                             <input type="text" placeholder="Email" name="email" class="sowparnikainput" id="email" required />
                             <input type="hidden" name="project" value="West Holmes">
-                            <button type="submit" id="interestButton-west" class="iamintrested" disabled>SUBMIT</button>
+                            <button type="submit" id="interestButton-west" class="iamintrested" >SUBMIT</button>
 								 </form>
                         </div>
                    
