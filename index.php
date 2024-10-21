@@ -67,8 +67,8 @@
 					<div class="col-md-4 col-sm-3">
 						<!-- Logo Area -->
 						<div class="logo_area">
-							 <a class="white_logo" href="index.html"><img class="desk-nav-logo" src="img/logo2.svg" alt="Logo" /></a>
-							 <a class="main_logo" href="index.html"><img class="mob-nav-logo" src="img/logo2.svg" alt="Logo" /></a>
+							 <a class="white_logo" href="index.php"><img class="desk-nav-logo" src="img/logo2.svg" alt="Logo" /></a>
+							 <a class="main_logo" href="index.php"><img class="mob-nav-logo" src="img/logo2.svg" alt="Logo" /></a>
 						</div>
 						
 						 <div class="navbar-header">
@@ -88,8 +88,8 @@
 							
 							<div id="navbar" class="navbar-collapse collapse">
 								<ul id="nav" class="nav navbar-nav">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="#about">About1</a></li>							
+									<li><a href="index.php">Home</a></li>
+									<li><a href="#about">About</a></li>							
 									<li><a href="#service_area">Project</a></li>									
 									<li><a href="#contact_area">Contact</a></li>
 								</ul>
