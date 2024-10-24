@@ -136,7 +136,7 @@
                             <div class="sowparnika-des">Please fill in your details</div>
 								 <form class="form-primary" id="contact_form1" action="enquiry.php" method="post">
 
-                           <input type="text" placeholder="Name" class="sowparnikainput" id="name" name="name" required />
+                           <input type="text" placeholder="Name" class="sowparnikainput" id="name" name="name" required="required" />
                             <input type="tel" id="phone" placeholder="phone" name="phone" class="sowparnikainput" required
                                 minlength="10" />
                             <input type="text" placeholder="Email" name="email" class="sowparnikainput" id="email" required />
